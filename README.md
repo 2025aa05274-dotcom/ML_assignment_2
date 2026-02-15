@@ -78,27 +78,6 @@ project-folder/
 
 ---
 
-## How to Run
-
-1. **Create virtual environment and install dependencies**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-2. **Train models (notebook)**  
-   Open `ML_Assignment_2.ipynb`, run all cells. This creates the `model/` folder and saved artifacts.
-
-3. **Run Streamlit app locally**
-   ```bash
-   streamlit run app.py
-   ```
-
-4. **Deploy on Streamlit Community Cloud**  
-   Push this repo to GitHub, then at [https://streamlit.io/cloud](https://streamlit.io/cloud): New App → select repo → main file `app.py` → Deploy.
-
----
 
 ## Streamlit App Features
 
@@ -106,3 +85,4 @@ project-folder/
 - **Model selection:** Dropdown to choose among the 6 models.
 - **Evaluation metrics:** Accuracy, AUC, Precision, Recall, F1, MCC (from validation set).
 - **Confusion matrix and classification report:** Shown for the selected model.
+
